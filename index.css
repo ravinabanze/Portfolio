@@ -1,0 +1,23 @@
+/* Minimal global tweaks */
+::selection { background: rgba(192, 132, 252, 0.25); }
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 1rem;
+	scroll-behavior: smooth;
+}
+
+/* Regulate heading and paragraph font sizes */
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+p, a, li, button {
+	font-size: 1rem;
+}
