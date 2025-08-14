@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../Logo.png';
 import { type KnowherFeature } from '../types';
 import { Sparkles, HeartPulse, CalendarDays, MessageCircle, CheckCircle } from './icons';
 
@@ -14,7 +15,7 @@ const Knowher: React.FC = () => {
   return (
     <section id="knowher" className="py-20">
       <div className="text-center">
-           <img src="/Logo.png" alt="KnowHer Logo" className="mx-auto mb-6 w-32 h-32 object-contain" />
+           <img src={Logo} alt="KnowHer Logo" className="mx-auto mb-6 w-32 h-32 object-contain" />
         <h2 className="font-bold tracking-tight text-purple-300">Introducing KnowHer</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Track how you really feel.
